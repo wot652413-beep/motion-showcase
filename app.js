@@ -111,7 +111,9 @@ function createCard(motion, index) {
         <strong>${motion.name}</strong>
         <span>${motion.role}</span>
       </span>
-      <span class="play-state"><span class="play-dot" aria-hidden="true"></span>Hover 播放</span>
+      <button class="play-state" type="button" aria-label="播放 ${motion.name}">
+        <span class="play-icon" aria-hidden="true"></span>
+      </button>
     </footer>
   `;
 
