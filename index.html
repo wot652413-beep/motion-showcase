@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>动效视频展示</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="motion-section" id="motionSection" aria-label="动效视频展示">
+        <header class="hero-copy">
+          <p class="eyebrow">Motion Design Gallery</p>
+          <h1>动效视频展示</h1>
+          <p class="lede">精选界面动效以沉浸式三维卡片呈现，悬停即可唤醒当前画面，点击切换查看不同动态片段。</p>
+        </header>
+
+        <div class="carousel-wrap">
+          <div class="carousel-stage" id="carouselStage" aria-live="polite"></div>
+        </div>
+
+        <nav class="carousel-controls" aria-label="轮播控制">
+          <button class="nav-button nav-prev" type="button" aria-label="上一张">
+            <span aria-hidden="true">‹</span>
+          </button>
+          <div class="dots" id="dots" aria-label="轮播分页"></div>
+          <button class="nav-button nav-next" type="button" aria-label="下一张">
+            <span aria-hidden="true">›</span>
+          </button>
+        </nav>
+
+        <p class="contact-line">姓名：应凯伟&nbsp;&nbsp; 电话：19518036439&nbsp;&nbsp; 邮箱：736044558@qq.com</p>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+
